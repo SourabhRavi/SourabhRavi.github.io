@@ -80,7 +80,7 @@ const Hero = () => {
         .
       </p>
       <p>
-        Outside work, I do graphic designing and upload them{' '}
+        Outside work, I do graphic designing and share them{' '}
         <a href="https://www.behance.net/sourabhravi1" target="_blank" rel="noreferrer">
           here
         </a>

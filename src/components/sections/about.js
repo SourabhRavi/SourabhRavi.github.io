@@ -29,11 +29,12 @@ const StyledText = styled.div`
     list-style: none;
 
     li {
+      color: var(--green);
       position: relative;
       margin-bottom: 10px;
       padding-left: 20px;
       font-family: var(--font-mono);
-      font-size: var(--fz-xs);
+      font-size: var(--fz-sm);
 
       &:before {
         content: '▹';
@@ -145,30 +146,35 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! My name is Brittany and I enjoy creating things that live on the internet. My
-              interest in web development started back in 2012 when I decided to try editing custom
-              Tumblr themes — turns out hacking together a custom reblog button taught me a lot
-              about HTML &amp; CSS!
-            </p>
-
-            <p>
-              Fast-forward to today, and I’ve had the privilege of working at{' '}
-              <a href="https://us.mullenlowe.com/">an advertising agency</a>,{' '}
-              <a href="https://starry.com/">a start-up</a>,{' '}
-              <a href="https://www.apple.com/">a huge corporation</a>, and{' '}
-              <a href="https://scout.camd.northeastern.edu/">a student-led design studio</a>. My
-              main focus these days is building accessible, inclusive products and digital
-              experiences at <a href="https://upstatement.com/">Upstatement</a> for a variety of
-              clients.
-            </p>
-
-            <p>
-              I also recently{' '}
-              <a href="https://www.newline.co/courses/build-a-spotify-connected-app">
-                launched a course
+              Hey there! My interest in application development started back in 2019 when I decided
+              to build an Attendance Management system using{''}{' '}
+              <a href="https://learn.microsoft.com/en-us/dotnet/desktop/winforms/?view=netdesktop-6.0">
+                Windows Forms in Visual Studio
               </a>{' '}
-              that covers everything you need to build a web app with the Spotify API using Node
-              &amp; React.
+              with C# for my final year project. I developed the entire{''}{' '}
+              <a
+                href="https://drive.google.com/file/d/14ZudkTuvMHcWueemI554Y3SWQpuYKHOh"
+                target="_blank"
+                rel="noreferrer"
+              >
+                UI with backend
+              </a>{' '}
+              to save data into the database. Also, it had a login portal!
+            </p>
+
+            <p>
+              Currently, I am working as a software developer for{''}{' '}
+              <a href="https://www.petpooja.com/" target="blank" rel="noreferrer">
+                Petpooja
+              </a>
+              . My responsibilties include development of new features and web application
+              optimisation.
+            </p>
+
+            <p>
+              I have been investing a lot of time recently into expanding my skillsets as a
+              developer, namely data structures and algorithms which I believe will further help me
+              in solving real-world problems.
             </p>
 
             <p>Here are a few technologies I’ve been working with recently:</p>
