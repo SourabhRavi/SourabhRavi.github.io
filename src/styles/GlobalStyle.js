@@ -104,6 +104,10 @@ const GlobalStyle = createGlobalStyle`
     }
   }
 
+  .currentCompany{
+    color: #ef5a5a;
+  }
+
   #root {
     min-height: 100vh;
     display: grid;

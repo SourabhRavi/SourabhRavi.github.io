@@ -5,10 +5,10 @@ const variables = css`
     --dark-navy: #020c1b;
     --navy: #17191a;
     --light-navy: #20272a;
-    --lightest-navy: #233554;
+    --lightest-navy: #363a40;
     --navy-shadow: rgba(8, 8, 8, 0.7);
     --dark-slate: #495670;
-    --slate: #8892b0;
+    --slate: #9fa7bf;
     --light-slate: #a8b2d1;
     --lightest-slate: #ccd6f6;
     --white: #e6f1ff;
